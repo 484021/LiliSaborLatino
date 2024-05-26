@@ -1,98 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
     <title>Lili Sabor Latino</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- ============================================ -->
-<!--                 Navigation                   -->
-<!-- ============================================ -->
+    <!--                 Navigation                   -->
+    <!-- ============================================ -->
 
-<header id="cs-navigation">
-    <div class="cs-top-bar">
+    <header id="cs-navigation">
+      <div class="cs-top-bar">
         <div class="cs-top-container">
-            <div class="cs-top-contact">
-                <a href="" class="cs-top-link">
-                    <img class="cs-link-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/phone-grey.svg" alt="logo" width="16" height="16" aria-hidden="true" decoding="async">
-                    Call us: +84 1985 33 999
-                </a>
-                <a href="" class="cs-top-link">
-                    <img class="cs-link-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/clock-grey.svg" alt="logo" width="20" height="20" aria-hidden="true" decoding="async">
-                    Opening hours: Mon - Sat: 8:00am To 9:00pm
-                </a>
-            </div>
-            <div class="cs-top-social">
-                <a href="" class="cs-social-link">
-                    <img class="cs-social-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/face-grey.svg" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
-                </a>
-                <a href="" class="cs-social-link">
-                    <img class="cs-social-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/twit-grey.svg" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
-                </a>
-                <a href="" class="cs-social-link">
-                    <img class="cs-social-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/insta-grey.svg" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
-                </a>
-            </div>
+          <div class="cs-top-contact">
+            <a href="" class="cs-top-link">
+              <img
+                class="cs-link-icon"
+                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/phone-grey.svg"
+                alt="logo"
+                width="16"
+                height="16"
+                aria-hidden="true"
+                decoding="async"
+              />
+              Call us: +###########
+            </a>
+            <a href="" class="cs-top-link">
+              <img
+                class="cs-link-icon"
+                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/clock-grey.svg"
+                alt="logo"
+                width="20"
+                height="20"
+                aria-hidden="true"
+                decoding="async"
+              />
+              Opening hours: Mon - Fri: 9:00am To 9:00pm, Sat - Sun: 10am - 10pm
+            </a>
+          </div>
+          <div class="cs-top-social">
+            <a href="" class="cs-social-link">
+              <img
+                class="cs-social-icon"
+                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/face-grey.svg"
+                alt="logo"
+                width="12"
+                height="12"
+                aria-hidden="true"
+                decoding="async"
+              />
+            </a>
+            <a href="" class="cs-social-link">
+              <img
+                class="cs-social-icon"
+                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/twit-grey.svg"
+                alt="logo"
+                width="12"
+                height="12"
+                aria-hidden="true"
+                decoding="async"
+              />
+            </a>
+            <a href="" class="cs-social-link">
+              <img
+                class="cs-social-icon"
+                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/insta-grey.svg"
+                alt="logo"
+                width="12"
+                height="12"
+                aria-hidden="true"
+                decoding="async"
+              />
+            </a>
+          </div>
         </div>
-    </div>
-    <div class="cs-container">
+      </div>
+      <div class="cs-container">
         <!--Nav Logo-->
         <a href="" class="cs-logo" aria-label="back to home">
-            <img src="" alt="logo" width="197" height="43" aria-hidden="true" decoding="async">
+          <img
+            src=""
+            alt="logo"
+            width="197"
+            height="43"
+            aria-hidden="true"
+            decoding="async"
+          />
         </a>
         <!--Navigation List-->
         <nav class="cs-nav" role="navigation">
-            <!--Mobile Nav Toggle-->
-            <button class="cs-toggle" aria-label="mobile menu toggle">
-                <div class="cs-box" aria-hidden="true">
-                    <span class="cs-line cs-line1" aria-hidden="true"></span>
-                    <span class="cs-line cs-line2" aria-hidden="true"></span>
-                    <span class="cs-line cs-line3" aria-hidden="true"></span>
-                </div>
-            </button>
-            <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
-            <div class="cs-ul-wrapper">
-                <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
-                    <li class="cs-li">
-                        <a href="" class="cs-li-link cs-active">
-                            Home
-                        </a>
-                    </li>
-                    <li class="cs-li">
-                        <a href="" class="cs-li-link">
-                            About
-                        </a>
-                    </li>
-                    <!--Copy and paste this cs-dropdown list item and replace any .cs-li with this cs-dropdown group to make a new dropdown and it will work-->
-                    <li class="cs-li cs-dropdown" tabindex="0">
-                        <span class="cs-li-link">
-                            Services
-                            <img class="cs-drop-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/chev-down.svg" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true">
-                        </span>
-                        <ul class="cs-drop-ul">
-                            <li class="cs-drop-li">
-                                <a href="" class="cs-li-link cs-drop-link">Housing</a>
-                            </li>
-                            <li class="cs-drop-li">
-                                <a href="" class="cs-li-link cs-drop-link">Food Banks</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="cs-li">
-                        <a href="" class="cs-li-link">
-                            Blog
-                        </a>
-                    </li>
-                    <li class="cs-li">
-                        <a href="" class="cs-li-link">
-                            Contact
-                        </a>
-                    </li>
-                </ul>
+          <!--Mobile Nav Toggle-->
+          <button class="cs-toggle" aria-label="mobile menu toggle">
+            <div class="cs-box" aria-hidden="true">
+              <span class="cs-line cs-line1" aria-hidden="true"></span>
+              <span class="cs-line cs-line2" aria-hidden="true"></span>
+              <span class="cs-line cs-line3" aria-hidden="true"></span>
             </div>
+          </button>
+          <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+          <div class="cs-ul-wrapper">
+            <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+              <li class="cs-li">
+                <a href="" class="cs-li-link cs-active"> Home </a>
+              </li>
+              <li class="cs-li">
+                <a href="" class="cs-li-link"> Menu </a>
+              </li>
+              <li class="cs-li">
+                <a href="" class="cs-li-link"> Catering </a>
+              </li>
+              <!--Copy and paste this cs-dropdown list item and replace any .cs-li with this cs-dropdown group to make a new dropdown and it will work-->
+              <li class="cs-li cs-dropdown" tabindex="0">
+                <span class="cs-li-link">
+                  About
+                  <img
+                    class="cs-drop-icon"
+                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/chev-down.svg"
+                    alt="dropdown icon"
+                    width="15"
+                    height="15"
+                    decoding="async"
+                    aria-hidden="true"
+                  />
+                </span>
+                <ul class="cs-drop-ul">
+                  <li class="cs-drop-li">
+                    <a href="" class="cs-li-link cs-drop-link">Lili</a>
+                  </li>
+                  <li class="cs-drop-li">
+                    <a href="" class="cs-li-link cs-drop-link"
+                      >Market Glamping</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="cs-li">
+                <a href="" class="cs-li-link"> Contact </a>
+              </li>
+            </ul>
+          </div>
         </nav>
         <a href="" class="cs-button-solid cs-nav-button">Place your order</a>
         <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
@@ -100,439 +155,838 @@
             <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
             <img class="cs-sun" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fsun.svg" decoding="async" alt="moon" width="15" height="15">
         </button> -->
-    </div>
-</header>
+      </div>
+    </header>
 
-<!-- ============================================ -->
-<!--                    Hero                      -->
-<!-- ============================================ -->
+    <!-- ============================================ -->
+    <!--                    Hero                      -->
+    <!-- ============================================ -->
 
-<section id="hero-1059">
-    <div class="cs-container">
+    <section id="hero-1059">
+      <div class="cs-container">
         <div class="cs-content">
-            <h1 class="cs-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sint ut molestias dicta sequi enim obcaecati ducimus culpa quod ex!</h1>
-            <p class="cs-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, velit.
-            </p>
-            <a href="" class="cs-button-solid">Order Now!</a>
+          <h1 class="cs-title">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
+            magnam!
+          </h1>
+          <p class="cs-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo,
+            velit.
+          </p>
+          <a href="" class="cs-button-solid">Order Now!</a>
         </div>
-    </div>
+      </div>
 
-    <!-- Background Image -->
-    <picture class="cs-background">
-        <source media="(max-width: 600px)" srcset="assets\V2_LOGO_LILI (2)-images-9.jpg">
-        <source media="(min-width: 601px)" srcset="assets\V2_LOGO_LILI (2)-images-9.jpg">
-        <img decoding="async" src="assets\V2_LOGO_LILI (2)-images-9.jpg" alt="foodtruck" width="2250" height="1500" aria-hidden="true">
-    </picture>
-</section>
+      <!-- Background Image -->
+      <picture class="cs-background">
+        <source
+          media="(max-width: 600px)"
+          srcset="assets\V2_LOGO_LILI (2)-images-9.jpg"
+        />
+        <source
+          media="(min-width: 601px)"
+          srcset="assets\V2_LOGO_LILI (2)-images-9.jpg"
+        />
+        <img
+          decoding="async"
+          src="assets\V2_LOGO_LILI (2)-images-9.jpg"
+          alt="foodtruck"
+          width="2250"
+          height="1500"
+          aria-hidden="true"
+        />
+      </picture>
+    </section>
 
-<!-- ============================================ -->
-<!--                Meet The Team                 -->
-<!-- ============================================ -->
+    <!-- ============================================ -->
+    <!--                Meet The Team                 -->
+    <!-- ============================================ -->
 
-<section id="meet-us-1021">
-    <div class="cs-container">
+    <section id="meet-us-1021">
+      <div class="cs-container">
         <div class="cs-content">
-            <img class="cs-graphic" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/Ornament.svg" alt="chef" width="456" height="31">
-            <h2 class="cs-title">Meet Our Team</h2>
-            <p class="cs-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
-            </p>
+          <img
+            class="cs-graphic"
+            aria-hidden="true"
+            loading="lazy"
+            decoding="async"
+            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/Ornament.svg"
+            alt="chef"
+            width="456"
+            height="31"
+          />
+          <h2 class="cs-title">Meet Our Team</h2>
+          <p class="cs-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco.
+          </p>
         </div>
         <ul class="cs-card-group">
-            <li class="cs-item">
-                <picture class="cs-picture">
-                    <source media="(max-width: 767px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef1.jpg">
-                    <source media="(min-width: 768px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef1.jpg">
-                    <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef1.jpg" alt="chef" width="305" height="335">
-                </picture>
-                <div class="cs-info">
-                    <span class="cs-name">Lili</span>
-                    <span class="cs-job">Head Chef</span>
-                </div>
-            </li>
-            <li class="cs-item">
-                <picture class="cs-picture">
-                    <source media="(max-width: 767px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef2.jpg">
-                    <source media="(min-width: 768px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef2.jpg">
-                    <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef2.jpg" alt="chef" width="305" height="335">
-                </picture>
-                <div class="cs-info">
-                    <span class="cs-name">Zaki Deanra</span>
-                    <span class="cs-job">Head Chef</span>
-                </div>
-            </li>
-            <li class="cs-item">
-                <picture class="cs-picture">
-                    <source media="(max-width: 767px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef3.jpg">
-                    <source media="(min-width: 768px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef3.jpg">
-                    <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef3.jpg" alt="chef" width="305" height="335">
-                </picture>
-                <div class="cs-info">
-                    <span class="cs-name">Zaki Deanra</span>
-                    <span class="cs-job">Head Chef</span>
-                </div>
-            </li>
+          <li class="cs-item">
+            <picture class="cs-picture">
+              <source media="(max-width: 767px)" srcset="assets\Paul.jpg" />
+              <source media="(min-width: 768px)" srcset="assets\Paul.jpg" />
+              <img
+                aria-hidden="true"
+                loading="lazy"
+                decoding="async"
+                src="assets\Paul.jpg"
+                alt="chef"
+                width="305"
+                height="335"
+              />
+            </picture>
+            <div class="cs-info">
+              <span class="cs-name">Paul </span>
+              <span class="cs-job">Owner</span>
+            </div>
+          </li>
+          <li class="cs-item">
+            <picture class="cs-picture">
+              <source media="(max-width: 767px)" srcset="assets\Lili.jpg" />
+              <source media="(min-width: 768px)" srcset="assets\Lili.jpg" />
+              <img
+                aria-hidden="true"
+                loading="lazy"
+                decoding="async"
+                src="assets\Lili.jpg"
+                alt="chef"
+                width="305"
+                height="335"
+              />
+            </picture>
+            <div class="cs-info">
+              <span class="cs-name">Lili</span>
+              <span class="cs-job">Head Chef and Owner</span>
+            </div>
+          </li>
+          <li class="cs-item">
+            <picture class="cs-picture">
+              <source media="(max-width: 767px)" srcset="assets\fam.jpg" />
+              <source media="(min-width: 768px)" srcset="assets\fam.jpg" />
+              <img
+                aria-hidden="true"
+                loading="lazy"
+                decoding="async"
+                src="assets\fam.jpg"
+                alt="chef"
+                width="305"
+                height="335"
+              />
+            </picture>
+            <div class="cs-info">
+              <span class="cs-name">Chefs</span>
+              <span class="cs-job">Family</span>
+            </div>
+          </li>
         </ul>
-    </div>
-</section>
-                                
-<!-- ============================================ -->
-<!--                     CTA                      -->
-<!-- ============================================ -->
+      </div>
+    </section>
 
-<section id="cta-51">
-    <div class="cs-container">
+    <!-- ============================================ -->
+    <!--                     CTA                      -->
+    <!-- ============================================ -->
+
+    <section id="cta-51">
+      <div class="cs-container">
         <div class="cs-content">
-            <span class="cs-topper">Order Catering</span>
-            <h2 class="cs-title">Get It Done With Us Today</h2>
-            <p class="cs-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis at sit pellentesque molestie.  Diam, adipiscing ultrices eu turpis gravida.
-            </p>
-            <a href="" class="cs-button-solid">Gret A Free Quote</a>
+          <span class="cs-topper">Order Catering</span>
+          <h2 class="cs-title">Get It Done With Us Today</h2>
+          <p class="cs-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis at sit
+            pellentesque molestie. Diam, adipiscing ultrices eu turpis gravida.
+          </p>
+          <a href="" class="cs-button-solid">Gret A Free Quote</a>
         </div>
-    </div>
-    <!-- Background Image-->
-    <picture class="cs-picture">
-        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/CTA/cabinets-m.jpg">
-        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/CTA/cabinets.jpg">
-        <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/CTA/cabinets.jpg" alt="cabinets" width="1920" height="1280" aria-hidden="true">
-    </picture>
-</section>
+      </div>
+      <!-- Background Image-->
+      <picture class="cs-picture">
+        <source
+          media="(max-width: 600px)"
+          srcset="https://csimg.nyc3.digitaloceanspaces.com/CTA/cabinets-m.jpg"
+        />
+        <source
+          media="(min-width: 601px)"
+          srcset="https://csimg.nyc3.digitaloceanspaces.com/CTA/cabinets.jpg"
+        />
+        <img
+          loading="lazy"
+          decoding="async"
+          src="https://csimg.nyc3.digitaloceanspaces.com/CTA/cabinets.jpg"
+          alt="cabinets"
+          width="1920"
+          height="1280"
+          aria-hidden="true"
+        />
+      </picture>
+    </section>
 
-<!-- ============================================ -->
-<!--                   Gallery                    -->
-<!-- ============================================ -->
+    <!-- ============================================ -->
+    <!--                   Gallery                    -->
+    <!-- ============================================ -->
 
-<section id="gallery-43">
-    <div class="cs-container">
+    <section id="gallery-43">
+      <div class="cs-container">
         <div class="cs-content">
-            <span class="cs-topper">Our Food</span>
-            <h2 class="cs-title">Lorem ipsum dolor sit amet.</h2>
-            <p class="cs-text">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
-            </p>
+          <span class="cs-topper">Our Food</span>
+          <h2 class="cs-title">Lorem ipsum dolor sit amet.</h2>
+          <p class="cs-text">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Amet minim
+            mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+            officia consequat duis enim velit mollit.
+          </p>
         </div>
         <div class="cs-image-group">
-            <!-- Image 1 -->
-            <a class="cs-item" href="">
-                <picture class="cs-picture">
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/house1-m.jpg">
-                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/house1.jpg">
-                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/house1.jpg" alt="fancy house" width="346" height="346">
-                </picture>
-                <!-- Hover Box -->
-                <div class="cs-hover-box">
-                    <picture class="cs-icon">
-                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/orange-arrow-right.svg" alt="fancy house" width="20" height="20" aria-hidden="true">
-                    </picture>
-                    <h3 class="cs-h3">Modern Architectual Design</h3>
-                    <p class="cs-hover-box-text">
-                        Li Europan lingues es membres del sam familie. Lor separat existentie es un myth.
-                    </p>
-                </div>
-            </a>
-            <!-- Image 2 -->
-            <a class="cs-item" href="">
-                <picture class="cs-picture">
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/house2-m.jpg">
-                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/house2.jpg">
-                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/house2.jpg" alt="modern house" width="346" height="346">
-                </picture>
-                <!-- Hover Box -->
-                <div class="cs-hover-box">
-                    <picture class="cs-icon">
-                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/orange-arrow-right.svg" alt="fancy house" width="20" height="20" aria-hidden="true">
-                    </picture>
-                    <h3 class="cs-h3">Modern Architectual Design</h3>
-                    <p class="cs-hover-box-text">
-                        Li Europan lingues es membres del sam familie. Lor separat existentie es un myth.
-                    </p>
-                </div>
-            </a>
-            <!-- Image 3 -->
-            <a class="cs-item" href="">
-                <picture class="cs-picture">
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/house3-m.jpg">
-                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/house1.jpg">
-                    <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/house1.jpg" alt="modern home at night" width="346" height="346">
-                </picture>
-                <!-- Hover Box -->
-                <div class="cs-hover-box">
-                    <picture class="cs-icon">
-                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/orange-arrow-right.svg" alt="fancy house" width="20" height="20" aria-hidden="true">
-                    </picture>
-                    <h3 class="cs-h3">Modern Architectual Design</h3>
-                    <p class="cs-hover-box-text">
-                        Li Europan lingues es membres del sam familie. Lor separat existentie es un myth.
-                    </p>
-                </div>
-            </a>
-            <!-- Image 4 -->
-            <a class="cs-item" href="">
-                <picture class="cs-picture">
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/house4-m.jpg">
-                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/house4.jpg">
-                    <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/house4.jpg" alt="modern home" width="346" height="346">
-                </picture>
-                <!-- Hover Box -->
-                <div class="cs-hover-box">
-                    <picture class="cs-icon">
-                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/orange-arrow-right.svg" alt="fancy house" width="20" height="20" aria-hidden="true">
-                    </picture>
-                    <h3 class="cs-h3">Modern Architectual Design</h3>
-                    <p class="cs-hover-box-text">
-                        Li Europan lingues es membres del sam familie. Lor separat existentie es un myth.
-                    </p>
-                </div>
-            </a>
-            <!-- Image 5 -->
-            <a class="cs-item" href="">
-                <picture class="cs-picture">
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/house5-m.jpg">
-                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/house5.jpg">
-                    <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/house5.jpg" alt="appliance" width="346" height="346">
-                </picture>
-                <!-- Hover Box -->
-                <div class="cs-hover-box">
-                    <picture class="cs-icon">
-                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/orange-arrow-right.svg" alt="fancy house" width="20" height="20" aria-hidden="true">
-                    </picture>
-                    <h3 class="cs-h3">Modern Architectual Design</h3>
-                    <p class="cs-hover-box-text">
-                        Li Europan lingues es membres del sam familie. Lor separat existentie es un myth.
-                    </p>
-                </div>
-            </a>
-            <!-- Image 6 -->
-            <a class="cs-item" href="">
-                <picture class="cs-picture">
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/house6-m.jpg">
-                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Gallery/house6.jpg">
-                    <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/house6.jpg" alt="modern home" width="346" height="346">
-                </picture>
-                <!-- Hover Box -->
-                <div class="cs-hover-box">
-                    <picture class="cs-icon">
-                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/orange-arrow-right.svg" alt="fancy house" width="20" height="20" aria-hidden="true">
-                    </picture>
-                    <h3 class="cs-h3">Modern Architectual Design</h3>
-                    <p class="cs-hover-box-text">
-                        Li Europan lingues es membres del sam familie. Lor separat existentie es un myth.
-                    </p>
-                </div>
-            </a>
-        </div>
-    </div>
-</section>
-                                
-                                
-
-<!-- ============================================ -->
-<!--                    Menu                      -->
-<!-- ============================================ -->
-
-<section id="menu-1001">
-    <div class="cs-container">
-        <div class="cs-content">
-            <picture class="cs-wrapper" aria-hidden="true">
-                <img class="cs-decal" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/decal1.svg" decoding="async" alt="decal" width="181" height="36">
+          <!-- Image 1 -->
+          <a class="cs-item" href="">
+            <picture class="cs-picture">
+              <source
+                media="(max-width: 600px)"
+                srcset="
+                assets\food 1.jpg                "
+              />
+              <source
+                media="(min-width: 601px)"
+                srcset="
+                assets\food 1.jpg
+                "
+              />
+              <img
+                loading="lazy"
+                decoding="async"
+                src="assets\food 1.jpg"
+                alt="fancy house"
+                width="346"
+                height="346"
+              />
             </picture>
-            <h2 class="cs-title">Our Specials</h2>
-            <p class="cs-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
-            </p>
+            <!-- Hover Box -->
+            <div class="cs-hover-box">
+              <picture class="cs-icon">
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/orange-arrow-right.svg"
+                  alt="fancy house"
+                  width="20"
+                  height="20"
+                  aria-hidden="true"
+                />
+              </picture>
+              <h3 class="cs-h3">Lorem, ipsum dolor.</h3>
+              <p class="cs-hover-box-text">
+                Li Europan lingues es membres del sam familie. Lor separat
+                existentie es un myth.
+              </p>
+            </div>
+          </a>
+          <!-- Image 2 -->
+          <a class="cs-item" href="">
+            <picture class="cs-picture">
+              <source
+                media="(max-width: 600px)"
+                srcset="
+                assets\food 2.jpg
+                "
+              />
+              <source
+                media="(min-width: 601px)"
+                srcset="
+                assets\food 2.jpg
+                "
+              />
+              <img
+                loading="lazy"
+                decoding="async"
+                src="assets\food 2.jpg"
+                alt="modern house"
+                width="346"
+                height="346"
+              />
+            </picture>
+            <!-- Hover Box -->
+            <div class="cs-hover-box">
+              <picture class="cs-icon">
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/orange-arrow-right.svg"
+                  alt="fancy house"
+                  width="20"
+                  height="20"
+                  aria-hidden="true"
+                />
+              </picture>
+              <h3 class="cs-h3">Lorem, ipsum dolor.</h3>
+              <p class="cs-hover-box-text">
+                Li Europan lingues es membres del sam familie. Lor separat
+                existentie es un myth.
+              </p>
+            </div>
+          </a>
+          <!-- Image 3 -->
+          <a class="cs-item" href="">
+            <picture class="cs-picture">
+              <source
+                media="(max-width: 600px)"
+                srcset="
+                assets\food 3.jpg
+                "
+              />
+              <source
+                media="(min-width: 601px)"
+                srcset="
+                assets\food 3.jpg
+                "
+              />
+              <img
+                aria-hidden="true"
+                loading="lazy"
+                decoding="async"
+                src="assets\food 3.jpg"
+                alt="modern home at night"
+                width="346"
+                height="346"
+              />
+            </picture>
+            <!-- Hover Box -->
+            <div class="cs-hover-box">
+              <picture class="cs-icon">
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/orange-arrow-right.svg"
+                  alt="fancy house"
+                  width="20"
+                  height="20"
+                  aria-hidden="true"
+                />
+              </picture>
+              <h3 class="cs-h3">Lorem, ipsum dolor.</h3>
+              <p class="cs-hover-box-text">
+                Li Europan lingues es membres del sam familie. Lor separat
+                existentie es un myth.
+              </p>
+            </div>
+          </a>
+          <!-- Image 4 -->
+          <a class="cs-item" href="">
+            <picture class="cs-picture">
+              <source
+                media="(max-width: 600px)"
+                srcset="
+                assets\food 4.jpg
+                "
+              />
+              <source
+                media="(min-width: 601px)"
+                srcset="
+                assets\food 4.jpg
+                "
+              />
+              <img
+                aria-hidden="true"
+                loading="lazy"
+                decoding="async"
+                src="assets\food 4.jpg"
+                alt="modern home"
+                width="346"
+                height="346"
+              />
+            </picture>
+            <!-- Hover Box -->
+            <div class="cs-hover-box">
+              <picture class="cs-icon">
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/orange-arrow-right.svg"
+                  alt="fancy house"
+                  width="20"
+                  height="20"
+                  aria-hidden="true"
+                />
+              </picture>
+              <h3 class="cs-h3">Lorem, ipsum dolor.</h3>
+              <p class="cs-hover-box-text">
+                Li Europan lingues es membres del sam familie. Lor separat
+                existentie es un myth.
+              </p>
+            </div>
+          </a>
+          <!-- Image 5 -->
+          <a class="cs-item" href="">
+            <picture class="cs-picture">
+              <source
+                media="(max-width: 600px)"
+                srcset="
+                assets\food 5.jpg
+                "
+              />
+              <source
+                media="(min-width: 601px)"
+                srcset="
+                assets\food 5.jpg
+                "
+              />
+              <img
+                aria-hidden="true"
+                loading="lazy"
+                decoding="async"
+                src="assets\food 5.jpg"
+                alt="appliance"
+                width="346"
+                height="346"
+              />
+            </picture>
+            <!-- Hover Box -->
+            <div class="cs-hover-box">
+              <picture class="cs-icon">
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/orange-arrow-right.svg"
+                  alt="fancy house"
+                  width="20"
+                  height="20"
+                  aria-hidden="true"
+                />
+              </picture>
+              <h3 class="cs-h3">Lorem, ipsum dolor.</h3>
+              <p class="cs-hover-box-text">
+                Li Europan lingues es membres del sam familie. Lor separat
+                existentie es un myth.
+              </p>
+            </div>
+          </a>
+          <!-- Image 6 -->
+          <a class="cs-item" href="">
+            <picture class="cs-picture">
+              <source
+                media="(max-width: 600px)"
+                srcset="
+                assets\food 6.jpg
+                "
+              />
+              <source
+                media="(min-width: 601px)"
+                srcset="
+                assets\food 6.jpg
+                "
+              />
+              <img
+                aria-hidden="true"
+                loading="lazy"
+                decoding="async"
+                src="assets\food 6.jpg"
+                alt="modern home"
+                width="346"
+                height="346"
+              />
+            </picture>
+            <!-- Hover Box -->
+            <div class="cs-hover-box">
+              <picture class="cs-icon">
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  src="https://csimg.nyc3.digitaloceanspaces.com/Gallery/orange-arrow-right.svg"
+                  alt="fancy house"
+                  width="20"
+                  height="20"
+                  aria-hidden="true"
+                />
+              </picture>
+              <h3 class="cs-h3">Lorem, ipsum dolor.</h3>
+              <p class="cs-hover-box-text">
+                Li Europan lingues es membres del sam familie. Lor separat
+                existentie es un myth.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                    Menu                      -->
+    <!-- ============================================ -->
+
+    <section id="menu-1001">
+      <div class="cs-container">
+        <div class="cs-content">
+          <picture class="cs-wrapper" aria-hidden="true">
+            <img
+              class="cs-decal"
+              src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/decal1.svg"
+              decoding="async"
+              alt="decal"
+              width="181"
+              height="36"
+            />
+          </picture>
+          <h2 class="cs-title">Our Menu</h2>
+          <p class="cs-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco.
+          </p>
         </div>
         <ul class="cs-card-group">
-            <li class="cs-item">
-                <picture class="cs-picture"  aria-hidden="true">
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food2.jpg">
-                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food2.jpg">
-                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food2.jpg" alt="food" width="160" height="160">
-                    </picture>
-                    <div class="cs-info">
-                    <h3 class="cs-h3">
-                        <span class="cs-name">Purple Corn Tostada</span>
-                        <span class="cs-price">
-                            $56
-                        </span>
-                    </h3>
-                    <p class="cs-item-p">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                    </p>
-                </div>
-            </li>
-            <li class="cs-item">
-                <picture class="cs-picture"  aria-hidden="true">
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food2.jpg">
-                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food2.jpg">
-                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food2.jpg" alt="food" width="160" height="160">
-                    </picture>
-                    <div class="cs-info">
-                    <h3 class="cs-h3">
-                        <span class="cs-name">Purple Corn Tostada</span>
-                        <span class="cs-price">
-                            $56
-                        </span>
-                    </h3>
-                    <p class="cs-item-p">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                    </p>
-                </div>
-            </li>
-            <li class="cs-item">
-                <picture class="cs-picture"  aria-hidden="true">
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food2.jpg">
-                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food2.jpg">
-                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food2.jpg" alt="food" width="160" height="160">
-                    </picture>
-                    <div class="cs-info">
-                    <h3 class="cs-h3">
-                        <span class="cs-name">Purple Corn Tostada</span>
-                        <span class="cs-price">
-                            $56
-                        </span>
-                    </h3>
-                    <p class="cs-item-p">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                    </p>
-                </div>
-            </li>
-            <li class="cs-item">
-                <picture class="cs-picture"  aria-hidden="true">
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food2.jpg">
-                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food2.jpg">
-                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food2.jpg" alt="food" width="160" height="160">
-                    </picture>
-                    <div class="cs-info">
-                    <h3 class="cs-h3">
-                        <span class="cs-name">Purple Corn Tostada</span>
-                        <span class="cs-price">
-                            $56
-                        </span>
-                    </h3>
-                    <p class="cs-item-p">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                    </p>
-                </div>
-            </li>
-            <li class="cs-item">
-                <picture class="cs-picture"  aria-hidden="true">
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food2.jpg">
-                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food2.jpg">
-                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food2.jpg" alt="food" width="160" height="160">
-                    </picture>
-                    <div class="cs-info">
-                    <h3 class="cs-h3">
-                        <span class="cs-name">Purple Corn Tostada</span>
-                        <span class="cs-price">
-                            $56
-                        </span>
-                    </h3>
-                    <p class="cs-item-p">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                    </p>
-                </div>
-            </li>
-            <li class="cs-item">
-                <picture class="cs-picture"  aria-hidden="true">
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food2.jpg">
-                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food2.jpg">
-                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food2.jpg" alt="food" width="160" height="160">
-                    </picture>
-                    <div class="cs-info">
-                    <h3 class="cs-h3">
-                        <span class="cs-name">Purple Corn Tostada</span>
-                        <span class="cs-price">
-                            $56
-                        </span>
-                    </h3>
-                    <p class="cs-item-p">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                    </p>
-                </div>
-            </li>
+          <li class="cs-item">
+            <picture class="cs-picture" aria-hidden="true">
+              <source
+                media="(max-width: 600px)"
+                srcset="assets/enchiladas.jpg"
+              />
+              <source
+                media="(min-width: 601px)"
+                srcset="assets/enchiladas.jpg"
+              />
+              <img
+                loading="lazy"
+                decoding="async"
+                src="assets/enchiladas.jpg"
+                alt="food"
+                width="160"
+                height="160"
+              />
+            </picture>
+            <div class="cs-info">
+              <h3 class="cs-h3">
+                <span class="cs-name">Enchiladas</span>
+                <span class="cs-price"> $21 </span>
+              </h3>
+              <p class="cs-item-p">
+                Rolled tortillas filled with your choice of protein (shredded
+                chicken, seasoned ground beef or slow-cooked pork), topped with
+                salsa and cheese. Served with rice and beans.
+              </p>
+            </div>
+          </li>
+
+          <li class="cs-item">
+            <picture class="cs-picture" aria-hidden="true">
+              <source
+                media="(max-width: 600px)"
+                srcset="
+                  https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food2.jpg
+                "
+              />
+              <source
+                media="(min-width: 601px)"
+                srcset="
+                  https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food2.jpg
+                "
+              />
+              <img
+                loading="lazy"
+                decoding="async"
+                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food2.jpg"
+                alt="food"
+                width="160"
+                height="160"
+              />
+            </picture>
+            <div class="cs-info">
+              <h3 class="cs-h3">
+                <span class="cs-name">Purple Corn Tostada</span>
+                <span class="cs-price"> $56 </span>
+              </h3>
+              <p class="cs-item-p">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+          </li>
+          <li class="cs-item">
+            <picture class="cs-picture" aria-hidden="true">
+              <source media="(max-width: 600px)" srcset="assets\tacos.jpg" />
+              <source media="(min-width: 601px)" srcset="assets\tacos.jpg" />
+              <img
+                loading="lazy"
+                decoding="async"
+                src="assets\tacos.jpg"
+                alt="food"
+                width="160"
+                height="160"
+              />
+            </picture>
+            <div class="cs-info">
+              <h3 class="cs-h3">
+                <span class="cs-name">Taco Trio</span>
+                <span class="cs-price"> $16 </span>
+              </h3>
+              <p class="cs-item-p">
+                Tender beef, zesty chicken, or savory pork in traditional
+                handmade tortillas, topped with fresh veggies and vibrant,
+                flavorful sauces.
+              </p>
+            </div>
+          </li>
+          <li class="cs-item">
+            <picture class="cs-picture" aria-hidden="true">
+              <source
+                media="(max-width: 600px)"
+                srcset="
+                  https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food2.jpg
+                "
+              />
+              <source
+                media="(min-width: 601px)"
+                srcset="
+                  https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food2.jpg
+                "
+              />
+              <img
+                loading="lazy"
+                decoding="async"
+                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food2.jpg"
+                alt="food"
+                width="160"
+                height="160"
+              />
+            </picture>
+            <div class="cs-info">
+              <h3 class="cs-h3">
+                <span class="cs-name">Cali Burger</span>
+                <span class="cs-price"> $56 </span>
+              </h3>
+              <p class="cs-item-p">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+          </li>
+          <li class="cs-item">
+            <picture class="cs-picture" aria-hidden="true">
+              <source
+                media="(max-width: 600px)"
+                srcset="assets\colburger.jpg"
+              />
+              <source
+                media="(min-width: 601px)"
+                srcset="assets\colburger.jpg"
+              />
+              <img
+                loading="lazy"
+                decoding="async"
+                src="assets\colburger.jpg"
+                alt="food"
+                width="160"
+                height="160"
+              />
+            </picture>
+            <div class="cs-info">
+              <h3 class="cs-h3">
+                <span class="cs-name">Cali Burger</span>
+                <span class="cs-price"> $20 </span>
+              </h3>
+              <p class="cs-item-p">
+                A juicy beef patty with traditional Colombian toppings in a
+                toasted bun, offering a vibrant twist on a classic.
+              </p>
+            </div>
+          </li>
+          <li class="cs-item">
+            <picture class="cs-picture" aria-hidden="true">
+              <source
+                media="(max-width: 600px)"
+                srcset="
+                  https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food2.jpg
+                "
+              />
+              <source
+                media="(min-width: 601px)"
+                srcset="
+                  https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food2.jpg
+                "
+              />
+              <img
+                loading="lazy"
+                decoding="async"
+                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food2.jpg"
+                alt="food"
+                width="160"
+                height="160"
+              />
+            </picture>
+            <div class="cs-info">
+              <h3 class="cs-h3">
+                <span class="cs-name">Purple Corn Tostada</span>
+                <span class="cs-price"> $56 </span>
+              </h3>
+              <p class="cs-item-p">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+          </li>
         </ul>
         <a href="" class="cs-button-solid">Reserve Your Table</a>
-    </div>
-    <!--Static background is in CSS as a tiled pattern-->
-</section>
-                                
+      </div>
+      <!--Static background is in CSS as a tiled pattern-->
+    </section>
 
-<!-- ============================================ -->
-<!--                  Footer                      -->
-<!-- ============================================ -->
+    <!-- ============================================ -->
+    <!--                  Footer                      -->
+    <!-- ============================================ -->
 
-<footer id="footer-1147">
-    <div class="cs-container">
+    <footer id="footer-1147">
+      <div class="cs-container">
         <div class="cs-top">
-            <a aria-label="go back to home" class="cs-logo" href="">
-                <img class="cs-logo-img" loading="lazy" decoding="async" src="" alt="logo" width="168" height="48">
-            </a>
-            <ul class="cs-ul">
-                <li class="cs-li">
-                    <a href="" class="cs-link">Home</a>
-                </li>
-                <li class="cs-li">
-                    <a href="" class="cs-link">About</a>
-                </li>
-                <li class="cs-li">
-                    <a href="" class="cs-link">Services</a>
-                </li>
-                <li class="cs-li">
-                    <a href="" class="cs-link">Donations</a>
-                </li>
-                <li class="cs-li">
-                    <a href="" class="cs-link">Events</a>
-                </li>
-                <li class="cs-li">
-                    <a href="" class="cs-link">Blog</a>
-                </li>
-                <li class="cs-li">
-                    <a href="" class="cs-link">Contact</a>
-                </li>
-            </ul>
+          <a aria-label="go back to home" class="cs-logo" href="">
+            <img
+              class="cs-logo-img"
+              loading="lazy"
+              decoding="async"
+              src=""
+              alt="logo"
+              width="168"
+              height="48"
+            />
+          </a>
+          <ul class="cs-ul">
+            <li class="cs-li">
+              <a href="" class="cs-link">Home</a>
+            </li>
+            <li class="cs-li">
+              <a href="" class="cs-link">About</a>
+            </li>
+            <li class="cs-li">
+              <a href="" class="cs-link">Services</a>
+            </li>
+            <li class="cs-li">
+              <a href="" class="cs-link">Donations</a>
+            </li>
+            <li class="cs-li">
+              <a href="" class="cs-link">Events</a>
+            </li>
+            <li class="cs-li">
+              <a href="" class="cs-link">Blog</a>
+            </li>
+            <li class="cs-li">
+              <a href="" class="cs-link">Contact</a>
+            </li>
+          </ul>
         </div>
         <div class="cs-bottom">
-            <!--Social-->
-            <ul class="cs-social">
-                <li class="cs-social-li">
-                    <a href="" class="cs-social-link" aria-label="facebook" target="_blank" rel="noopener">
-                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/facebook-white.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
-                    </a>
-                </li>
-                <li class="cs-social-li">
-                    <a href="" class="cs-social-link" aria-label="twitter" target="_blank" rel="noopener">
-                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/twitter-white.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
-                    </a>
-                </li>
-                <li class="cs-social-li">
-                    <a href="" class="cs-social-link" aria-label="instagram" target="_blank" rel="noopener">
-                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/instagram-transparent.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
-                    </a>
-                </li>
-                <li class="cs-social-li">
-                    <a href="" class="cs-social-link" aria-label="twitter" target="_blank" rel="noopener">
-                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/youtube-transparent2.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
-                    </a>
-                </li>
-            </ul>
-            <span class="cs-copyright">
-                © Copyright 2024 - <a href="" class="cs-copyright-link">Lili Sabor Latino</a>
-            </span>
+          <!--Social-->
+          <ul class="cs-social">
+            <li class="cs-social-li">
+              <a
+                href=""
+                class="cs-social-link"
+                aria-label="facebook"
+                target="_blank"
+                rel="noopener"
+              >
+                <img
+                  class="cs-social-icon cs-default"
+                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/facebook-white.svg"
+                  alt="icon"
+                  loading="lazy"
+                  decoding="async"
+                  width="12"
+                  height="12"
+                  aria-hidden="true"
+                />
+              </a>
+            </li>
+            <li class="cs-social-li">
+              <a
+                href=""
+                class="cs-social-link"
+                aria-label="twitter"
+                target="_blank"
+                rel="noopener"
+              >
+                <img
+                  class="cs-social-icon cs-default"
+                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/twitter-white.svg"
+                  alt="icon"
+                  loading="lazy"
+                  decoding="async"
+                  width="12"
+                  height="12"
+                  aria-hidden="true"
+                />
+              </a>
+            </li>
+            <li class="cs-social-li">
+              <a
+                href=""
+                class="cs-social-link"
+                aria-label="instagram"
+                target="_blank"
+                rel="noopener"
+              >
+                <img
+                  class="cs-social-icon cs-default"
+                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/instagram-transparent.svg"
+                  alt="icon"
+                  loading="lazy"
+                  decoding="async"
+                  width="12"
+                  height="12"
+                  aria-hidden="true"
+                />
+              </a>
+            </li>
+            <li class="cs-social-li">
+              <a
+                href=""
+                class="cs-social-link"
+                aria-label="twitter"
+                target="_blank"
+                rel="noopener"
+              >
+                <img
+                  class="cs-social-icon cs-default"
+                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/youtube-transparent2.svg"
+                  alt="icon"
+                  loading="lazy"
+                  decoding="async"
+                  width="12"
+                  height="12"
+                  aria-hidden="true"
+                />
+              </a>
+            </li>
+          </ul>
+          <span class="cs-copyright">
+            © Copyright 2024 -
+            <a href="" class="cs-copyright-link">Lili Sabor Latino</a>
+          </span>
         </div>
-    </div>
-    <!--Background-->
-    <picture class="cs-background">
+      </div>
+      <!--Background-->
+      <picture class="cs-background">
         <!--Mobile Image-->
-        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/kids2.jpg">
+        <source
+          media="(max-width: 600px)"
+          srcset="
+            https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/kids2.jpg
+          "
+        />
         <!--Tablet and above Image-->
-        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/kids2.jpg">
-        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/kids2.jpg" alt="kids" width="1280" height="568">
-    </picture>
-</footer>
-                                
-                                
-    
-</body>
+        <source
+          media="(min-width: 601px)"
+          srcset="
+            https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/kids2.jpg
+          "
+        />
+        <img
+          loading="lazy"
+          decoding="async"
+          src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/kids2.jpg"
+          alt="kids"
+          width="1280"
+          height="568"
+        />
+      </picture>
+    </footer>
+  </body>
 </html>
