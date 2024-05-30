@@ -1762,4 +1762,15 @@ body {
       justify-content: space-between;
   }
 }
+
+.div {
+  position:fixed;
+right:0;
+bottom:0;
+z-index: 999
+}  
+
+.float {
+  
+}
                               
