@@ -378,8 +378,10 @@ body {
   }
   /* Tablet - 768px */
   @media only screen and (min-width: 48rem) {
+    
     #cs-navigation .cs-top-link:nth-of-type(2) {
       display: flex;
+      
     }
   }
   
@@ -773,6 +775,7 @@ body {
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
+  
     #hero-1059 {
         /* Centers button */
         text-align: left;
@@ -1371,6 +1374,7 @@ body {
 
   
   #menu-1001 {
+    
       padding: var(--sectionPadding);
       position: relative;
       z-index: 1;
@@ -2035,6 +2039,8 @@ z-index: 999
 @media only screen and (min-width: 0rem) {
   #content-page-852 {
       padding: var(--sectionPadding);
+      padding-top: 10rem;
+
       background-color: #fff;
       /* clips the wave background from causing overflow issues when it goes off screen */
       overflow: hidden;
@@ -2224,6 +2230,8 @@ z-index: 999
   #sbs-r-1892 {
     width: 100%;
     padding: var(--sectionPadding);
+    padding-top: 10rem;
+
     background-color: #faf6f2;
     display: flex;
     flex-direction: column;
@@ -2420,6 +2428,7 @@ z-index: 999
   #sbs-r-1892 .cs-content {
     /* 48px - 64px */
     padding: clamp(3rem, 5vw, 4rem) 0;
+    
   }
   #sbs-r-1892 .cs-image-group {
     font-size: min(1.27vw, 1rem);
